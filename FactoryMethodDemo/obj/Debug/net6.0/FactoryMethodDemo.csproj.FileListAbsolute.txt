@@ -1,0 +1,15 @@
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\FactoryMethodDemo.exe
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\FactoryMethodDemo.deps.json
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\FactoryMethodDemo.runtimeconfig.json
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\FactoryMethodDemo.dll
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\ref\FactoryMethodDemo.dll
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\bin\Debug\net6.0\FactoryMethodDemo.pdb
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.AssemblyInfoInputs.cache
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.AssemblyInfo.cs
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.csproj.CoreCompileInputs.cache
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.dll
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\ref\FactoryMethodDemo.dll
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.pdb
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.genruntimeconfig.cache
+E:\DevPrograms\OOP_Learn\FactoryMethodDemo\FactoryMethodDemo\FactoryMethodDemo\obj\Debug\net6.0\FactoryMethodDemo.csproj.AssemblyReference.cache
