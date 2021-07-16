@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DevPrograms\\OOP_Learn\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo.csproj": {}
+    "E:\\DevPrograms\\Git-Fork\\FactoryMethodPattern\\FactoryMethodDemo\\FactoryMethodDemo.csproj": {}
   },
   "projects": {
-    "E:\\DevPrograms\\OOP_Learn\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo.csproj": {
+    "E:\\DevPrograms\\Git-Fork\\FactoryMethodPattern\\FactoryMethodDemo\\FactoryMethodDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DevPrograms\\OOP_Learn\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo.csproj",
+        "projectUniqueName": "E:\\DevPrograms\\Git-Fork\\FactoryMethodPattern\\FactoryMethodDemo\\FactoryMethodDemo.csproj",
         "projectName": "FactoryMethodDemo",
-        "projectPath": "E:\\DevPrograms\\OOP_Learn\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo.csproj",
+        "projectPath": "E:\\DevPrograms\\Git-Fork\\FactoryMethodPattern\\FactoryMethodDemo\\FactoryMethodDemo.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\DevPrograms\\OOP_Learn\\FactoryMethodDemo\\FactoryMethodDemo\\FactoryMethodDemo\\obj\\",
+        "outputPath": "E:\\DevPrograms\\Git-Fork\\FactoryMethodPattern\\FactoryMethodDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
