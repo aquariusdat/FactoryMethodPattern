@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FactoryMethodDemo.Models.Objects.Children
 {
-    class Nokia6300 : INokia
+    class Nokia6300
     {
-        private readonly string _name;
+        private string _name { get; init; }
         private string _price { get; set; }
 
         public Nokia6300()

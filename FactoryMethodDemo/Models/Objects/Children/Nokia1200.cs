@@ -7,9 +7,9 @@ using FactoryMethodDemo.Models.Objects.Base;
 
 namespace FactoryMethodDemo.Models.Objects.Children
 {
-    class Nokia1200 : INokia
+    class Nokia1200
     {
-        private readonly string _name;
+        private string _name { get; init; }
         private string _price { get; set; }
 
         public Nokia1200()

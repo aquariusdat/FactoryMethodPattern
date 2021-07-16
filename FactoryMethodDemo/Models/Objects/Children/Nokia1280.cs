@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace FactoryMethodDemo.Models.Objects.Children
 {
-    class Nokia1280 : INokia
+    class Nokia1280
     {
-        private readonly string _name;
+        private string _name { get; init; }
         private string _price { get; set; }
 
         public Nokia1280()
@@ -20,7 +20,7 @@ namespace FactoryMethodDemo.Models.Objects.Children
 
         public string GetPaymentInfo()
         {
-            return $"Ban da chon {this._name}\nTong tien ban phai tra la: {this._price}" ;
+            return $"Ban da chon {this._name}\nTong tien ban phai tra la: {this._price}";
         }
     }
 }
