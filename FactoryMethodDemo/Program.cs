@@ -49,51 +49,56 @@ namespace FactoryMethodDemo
             #endregion
 
             #region Default
-            int type = 0;
-            do
-            {
-                Console.Clear();
-                System.Console.WriteLine(menuAll);
+            // int type = 0;
+            // do
+            // {
+            //     Console.Clear();
 
-                type = Convert.ToInt32(Console.ReadLine().ToString());
+            //     System.Console.WriteLine(menuAll);
 
-                if (type <= 0 || type > 6)
-                {
-                    Console.WriteLine("Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
-                    Console.ReadKey();
-                }
+            //     type = Convert.ToInt32(Console.ReadLine().ToString());
 
-            } while (type <= 0 || type > 6);
+            //     if (type <= 0 || type > 6)
+            //     {
+            //         Console.WriteLine("Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
+            //         Console.ReadKey();
+            //     }
 
-            switch (type)
-            {
-                case 1:
-                    Nokia1200 nokia1200 = new Nokia1200();
-                    Console.WriteLine(nokia1200.GetPaymentInfo());
-                    break;
-                case 2:
-                    Nokia1280 nokia1280 = new Nokia1280();
-                    Console.WriteLine(nokia1280.GetPaymentInfo());
-                    break;
-                case 3:
-                    Nokia6300 nokia6300 = new Nokia6300();
-                    Console.WriteLine(nokia6300.GetPaymentInfo());
-                    break;
-                case 4:
-                    Nokia83 nokia83 = new Nokia83();
-                    Console.WriteLine(nokia83.GetPaymentInfo());
-                    break;
-                case 5:
-                    NokiaLumia nokialumia = new NokiaLumia();
-                    Console.WriteLine(nokialumia.GetPaymentInfo());
-                    break;
-                case 6:
-                    NokiaX6 nokiax6 = new NokiaX6();
-                    Console.WriteLine(nokiax6.GetPaymentInfo());
-                    break;
-                default:
-                    break;
-            }
+            // } while (type <= 0 || type > 6);
+
+            // switch (type)
+            // {
+            //     case 1:
+            //         Nokia1200 nokia1200 = new Nokia1200();
+            //         Console.WriteLine(nokia1200.GetPaymentInfo());
+            //         break;
+            //     case 2:
+            //         Nokia1280 nokia1280 = new Nokia1280();
+            //         Console.WriteLine(nokia1280.GetPaymentInfo());
+            //         break;
+            //     case 3:
+            //         Nokia6300 nokia6300 = new Nokia6300();
+            //         Console.WriteLine(nokia6300.GetPaymentInfo());
+            //         break;
+            //     case 4:
+            //         Nokia83 nokia83 = new Nokia83();
+            //         Console.WriteLine(nokia83.GetPaymentInfo());
+            //         break;
+            //     case 5:
+            //         NokiaLumia nokialumia = new NokiaLumia();
+            //         Console.WriteLine(nokialumia.GetPaymentInfo());
+            //         break;
+            //     case 6:
+            //         NokiaX6 nokiax6 = new NokiaX6();
+            //         Console.WriteLine(nokiax6.GetPaymentInfo());
+            //         break;
+            //     case 7:
+            //         Nokia3000 nokia300 = new Nokia3000();
+            //         System.Console.WriteLine(nokia300.GetPaymentInfo());
+            //         break;
+            //     default:
+            //         break;
+            // }
             #endregion
 
             #region Simple Factory
@@ -116,40 +121,41 @@ namespace FactoryMethodDemo
             #endregion
 
             #region Factory Method
-            // IMobileFactory factory = null;
-            // INokia nokia = null;
-            // do
-            // {
-            //     Console.Clear();
-            //     System.Console.WriteLine(menuSmartAndNormal);
+            IMobileFactory factory = null;
+            INokia nokia = null;
+            do
+            {
+                Console.Clear();
+                System.Console.WriteLine(menuSmartAndNormal);
 
-            //     int type = Convert.ToInt32(Console.ReadLine().ToString());
+                int type = Convert.ToInt32(Console.ReadLine().ToString());
 
-            //     switch (type)
-            //     {
-            //         case 1:
-            //             factory = new SmartMobileFactory();
+                switch (type)
+                {
+                    case 1:
+                        factory = new SmartMobileFactory();
 
-            //             System.Console.WriteLine(menuSmart);
+                        System.Console.WriteLine(menuSmart);
 
-            //             int type1 = Convert.ToInt32(Console.ReadLine().ToString());
-            //             nokia = factory.GetMobile(type1);
-            //             break;
-            //         case 2:
-            //             factory = new NormalMobileFactory();
+                        int type1 = Convert.ToInt32(Console.ReadLine().ToString());
+                        nokia = factory.GetMobile(type1);
+                        break;
+                    case 2:
+                        factory = new NormalMobileFactory();
 
-            //             System.Console.WriteLine(menuNormal);
+                        System.Console.WriteLine(menuNormal);
 
-            //             int type2 = Convert.ToInt32(Console.ReadLine().ToString());
-            //             nokia = factory.GetMobile(type2);
-            //             break;
-            //     }
+                        int type2 = Convert.ToInt32(Console.ReadLine().ToString());
+                        nokia = factory.GetMobile(type2);
+                        break;
+                }
 
-            //     Console.WriteLine(nokia?.GetPaymentInfo() ?? "Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
-            //     Console.ReadKey();
+                Console.WriteLine(nokia?.GetPaymentInfo() ?? "Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
+                Console.ReadKey();
 
-            // } while (nokia == null);
+            } while (nokia == null);
             #endregion
+
         }
     }
 }

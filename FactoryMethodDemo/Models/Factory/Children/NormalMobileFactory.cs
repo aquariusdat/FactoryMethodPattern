@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace FactoryMethodDemo.Models.Factory.Children
 {
-    class NokiaMobileFactory
+    class NormalMobileFactory : IMobileFactory
     {
         public INokia GetMobile(int type)
         {
@@ -21,12 +21,6 @@ namespace FactoryMethodDemo.Models.Factory.Children
                     return new Nokia1280();
                 case 3:
                     return new Nokia6300();
-                case 4:
-                    return new Nokia83();
-                case 5:
-                    return new NokiaLumia();
-                case 6:
-                    return new NokiaX6();
                 default:
                     return null;
             }
