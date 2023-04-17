@@ -108,8 +108,8 @@ namespace FactoryMethodDemo
             // {
             //     Console.Clear();
             //     System.Console.WriteLine(menuAll);
-            //     int type = Convert.ToInt32(Console.ReadLine().ToString());
-            //     chooseMobile = factory.GetMobile(type);
+            //     int typeMobile = Convert.ToInt32(Console.ReadLine().ToString());
+            //     chooseMobile = factory.GetMobile(Console);
             //     if (chooseMobile == null)
             //     {
             //         Console.WriteLine("Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
@@ -137,16 +137,16 @@ namespace FactoryMethodDemo
 
                         System.Console.WriteLine(menuSmart);
 
-                        int type1 = Convert.ToInt32(Console.ReadLine().ToString());
-                        nokia = factory.GetMobile(type1);
+                        int smartTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
+                        nokia = factory.GetMobile(smartTypeMobile);
                         break;
                     case 2:
                         factory = new NormalMobileFactory();
 
                         System.Console.WriteLine(menuNormal);
 
-                        int type2 = Convert.ToInt32(Console.ReadLine().ToString());
-                        nokia = factory.GetMobile(type2);
+                        int normalTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
+                        nokia = factory.GetMobile(normalTypeMobile);
                         break;
                 }
 
