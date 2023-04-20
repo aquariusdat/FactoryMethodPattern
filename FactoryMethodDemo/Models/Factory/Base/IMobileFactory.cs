@@ -11,6 +11,5 @@ namespace FactoryMethodDemo.Models.Factory.Base
     interface IMobileFactory
     {
         INokia GetMobile(int type);
-      
     }
 }
