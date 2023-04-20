@@ -109,7 +109,7 @@ namespace FactoryMethodDemo
             //     Console.Clear();
             //     System.Console.WriteLine(menuAll);
             //     int typeMobile = Convert.ToInt32(Console.ReadLine().ToString());
-            //     chooseMobile = factory.GetMobile(Console);
+            //     chooseMobile = factory.GetMobile(typeMobile);
             //     if (chooseMobile == null)
             //     {
             //         Console.WriteLine("Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
@@ -121,39 +121,39 @@ namespace FactoryMethodDemo
             #endregion
 
             #region Factory Method
-            IMobileFactory factory = null;
-            INokia nokia = null;
-            do
-            {
-                Console.Clear();
-                System.Console.WriteLine(menuSmartAndNormal);
+            // IMobileFactory factory = null;
+            // INokia nokia = null;
+            // do
+            // {
+            //     Console.Clear();
+            //     System.Console.WriteLine(menuSmartAndNormal);
 
-                int type = Convert.ToInt32(Console.ReadLine().ToString());
+            //     int type = Convert.ToInt32(Console.ReadLine().ToString());
 
-                switch (type)
-                {
-                    case 1:
-                        factory = new SmartMobileFactory();
+            //     switch (type)
+            //     {
+            //         case 1:
+            //             factory = new SmartMobileFactory();
 
-                        System.Console.WriteLine(menuSmart);
+            //             System.Console.WriteLine(menuSmart);
 
-                        int smartTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
-                        nokia = factory.GetMobile(smartTypeMobile);
-                        break;
-                    case 2:
-                        factory = new NormalMobileFactory();
+            //             int smartTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
+            //             nokia = factory.GetMobile(smartTypeMobile);
+            //             break;
+            //         case 2:
+            //             factory = new NormalMobileFactory();
 
-                        System.Console.WriteLine(menuNormal);
+            //             System.Console.WriteLine(menuNormal);
 
-                        int normalTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
-                        nokia = factory.GetMobile(normalTypeMobile);
-                        break;
-                }
+            //             int normalTypeMobile = Convert.ToInt32(Console.ReadLine().ToString());
+            //             nokia = factory.GetMobile(normalTypeMobile);
+            //             break;
+            //     }
 
-                Console.WriteLine(nokia?.GetPaymentInfo() ?? "Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
-                Console.ReadKey();
+            //     Console.WriteLine(nokia?.GetPaymentInfo() ?? "Du lieu nhap khong hop le.\nVui long ban nhap lai.\n");
+            //     Console.ReadKey();
 
-            } while (nokia == null);
+            // } while (nokia == null);
             #endregion
 
         }
