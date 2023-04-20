@@ -151,7 +151,6 @@ namespace FactoryMethodDemo
 
             // } while (nokia == null);
             #endregion
-
         }
     }
 }
